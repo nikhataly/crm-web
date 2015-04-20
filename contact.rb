@@ -8,7 +8,10 @@ class Contact
         @note = note
     end
 
+
+
     def to_s
-        print "First name: #{@first_name}, Last_name: #{@last_name}, Email: #{@email}, Notes: #{@note}"
+        print "First name: #{first_name}, Last_name: #{last_name}, Email: #{@email}, Notes: #{@note}"
     end
+
 end
